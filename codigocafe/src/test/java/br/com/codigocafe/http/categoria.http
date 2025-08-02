@@ -1,0 +1,10 @@
+@baseURL=http://localhost:8080
+
+### Cadastrar categorias
+POST {{baseURL}}/api/categorias
+Content-Type: application/json
+
+{
+  "nome": "Lógica de Programação com Java",
+  "descricao": "Guia Java para Iniciantes – Conceito de Java"
+}

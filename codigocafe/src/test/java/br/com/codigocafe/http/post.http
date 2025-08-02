@@ -1,0 +1,13 @@
+@baseURL=http://localhost:8080
+
+### Cadastrar post
+POST {{baseURL}}/api/posts
+Content-Type: application/json
+
+{
+  "titulo": "Título Teste",
+  "conteudo": "Esse é um conteúdo de teste",
+  "categoria": {
+    "id": 1
+  }
+}
